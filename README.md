@@ -1,15 +1,24 @@
-# terraform_example
-
-
-
+# AWS Profile設定
 aws s3 ls --profile ucl
 or
 export AWS_PROFILE="ucl"
 
+### Terraform-docs 実行
+- terraform-docs markdown modules/s3 --output-file doc.md
 
-terraform-docs markdown modules/s3 --output-file doc.md
+### Terraform plan & apply
+- terraform plan
+- terraform apply
 
+### Terraform フォーマッタ＆バリデータ
+- terraform fmt
+- terraform validate
 
+### Terraform 静的分析ツール
+- checkov --directory ./example/
+
+### Terraform Lint
+- tflint --recursive
 
 ### 基本
 - https://tama-shira.github.io/note/terraform/terraform-01-basic/

@@ -16,3 +16,10 @@ RUN unzip ./terraform_1.3.9_linux_amd64.zip -d /usr/local/bin/
 RUN curl -sSLo ./terraform-docs.tar.gz https://terraform-docs.io/dl/v0.16.0/terraform-docs-v0.16.0-linux-amd64.tar.gz
 RUN tar -xzf terraform-docs.tar.gz
 RUN mv terraform-docs /usr/local/bin/terraform-docs
+
+# install checkov
+RUN pip install --upgrade pip && pip install --upgrade setuptools
+RUN pip install checkov
+
+# install tflint
+RUN curl -s https://raw.githubusercontent.com/terraform-linters/tflint/master/install_linux.sh | bash
