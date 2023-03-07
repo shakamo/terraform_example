@@ -1,0 +1,1 @@
+{"Modules":[{"Key":"vpc_example_simple-vpc.vpc","Source":"../..","Dir":".terraform/modules/vpc_example_simple-vpc"},{"Key":"","Source":"","Dir":"."},{"Key":"vpc_example_simple-vpc","Source":"registry.terraform.io/terraform-aws-modules/vpc/aws//examples/simple-vpc","Version":"3.19.0","Dir":".terraform/modules/vpc_example_simple-vpc/examples/simple-vpc"}]}

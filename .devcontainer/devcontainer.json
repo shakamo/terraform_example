@@ -1,0 +1,14 @@
+{
+  "name": "Terraform",
+  "dockerFile": "Dockerfile",
+  "forwardPorts": [
+    9000
+  ],
+  "extensions": [
+    "HashiCorp.terraform",
+    "4ops.terraform"
+  ],
+  "mounts": [
+    "source=${localEnv:HOME}/.aws,target=/root/.aws,type=bind,consistency=cached"
+  ],
+}
