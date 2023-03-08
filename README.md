@@ -24,9 +24,12 @@ export AWS_PROFILE="ucl"
 - https://tama-shira.github.io/note/terraform/terraform-01-basic/
 
 ### 構成
+- https://cloud.google.com/docs/terraform/best-practices-for-terraform?hl=ja
 - https://dev.classmethod.jp/articles/terraform-bset-practice-jp/
 - https://zenn.dev/himekoh/articles/202208191916
 - https://zoo200.net/terraform-tutorial-module-and-directory/
+- https://blog.pepese.com/terraform-modules-env/
+- https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-32c7bc5d692
 
 ### terraform import
 - https://qiita.com/masato930/items/f5707be8077dba995978
