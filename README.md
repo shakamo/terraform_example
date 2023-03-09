@@ -64,6 +64,7 @@ tflint --recursive
 ### 基本
 
 - https://tama-shira.github.io/note/terraform/terraform-01-basic/
+- https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/s3_bucket
 
 ### 構成
 
