@@ -74,6 +74,6 @@ tflint --recursive
 - https://blog.pepese.com/terraform-modules-env/
 - https://blog.gruntwork.io/how-to-manage-multiple-environments-with-terraform-32c7bc5d692
 
-### terraform import
+### Terraform Import
 
 - https://qiita.com/masato930/items/f5707be8077dba995978
