@@ -24,29 +24,42 @@ export AWS_PROFILE="ucl"
 ### Terraform 初期化
 
 - main.tf がある場所で以下のコマンドを実行
-  - terraform init
+
+```
+terraform init
+```
 
 ### Terraform plan & apply
 
-- terraform plan
-- terraform apply
+```
+terraform plan
+terraform apply
+```
 
 ### Terraform フォーマッタ＆バリデータ
 
-- terraform fmt
-- terraform validate
+```
+terraform fmt
+terraform validate
+```
 
-### Terraform-docs 実行
+### Terraform-docs 実行 ¥
 
-- terraform-docs markdown modules/s3 --output-file doc.md
+```
+terraform-docs markdown modules/s3 --output-file doc.md
+```
 
 ### Terraform 静的分析ツール
 
-- checkov --directory ./example/
+```
+checkov --directory ./example/
+```
 
 ### Terraform Lint
 
-- tflint --recursive
+```
+tflint --recursive
+```
 
 ### 基本
 
