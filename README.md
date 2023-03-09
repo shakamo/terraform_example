@@ -4,6 +4,11 @@
 git clone https://github.com/ucl-sakamoto/terraform_example.git
 ```
 
+### VS Code Dev Container とは
+
+- https://code.visualstudio.com/docs/devcontainers/containers
+- https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
+
 ### AWS Profile 設定
 
 ```
