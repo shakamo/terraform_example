@@ -1,7 +1,7 @@
 ### Git Clone
 
 ```
-git clone https://github.com/ucl-sakamoto/terraform_example.git
+git clone https://github.com/shakamo/terraform_example.git
 ```
 
 ### VS Code Dev Container とは
@@ -12,13 +12,13 @@ git clone https://github.com/ucl-sakamoto/terraform_example.git
 ### AWS Profile 設定
 
 ```
-aws s3 ls --profile ucl
+aws s3 ls --profile default
 ```
 
 or
 
 ```
-export AWS_PROFILE="ucl"
+export AWS_PROFILE="default"
 ```
 
 ### Terraform 初期化
